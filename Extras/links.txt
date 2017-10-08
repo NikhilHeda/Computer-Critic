@@ -1,0 +1,3 @@
+https://streamhacker.com/2014/12/29/word2vec-nltk/
+https://joshbohde.com/blog/document-summarization
+https://rare-technologies.com/word2vec-tutorial/
