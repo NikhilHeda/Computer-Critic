@@ -1,3 +1,4 @@
+# this small code clusters the data in groups of unique products. 
 with open('reviews_Electronics_5.json') as file:   # we use 'with' for better exception handling
     for line in file:
         data = json.loads(line)

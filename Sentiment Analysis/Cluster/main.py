@@ -6,7 +6,7 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 stop_words = set(stopwords.words('english'))
-
+# small algorithmn to calculate rating(out of 5) based on the sentiment result of comment and its summary
 def calcRating(neg_review_avg,neu_review_avg,pos_review_avg,neg_summary_avg,neu_summary_avg,pos_summary_avg):
     if pos_review_avg > neg_review_avg and pos_summary_avg > neg_summary_avg:
         
@@ -41,19 +41,19 @@ for filename in glob.glob('*.json'):
             
               sid = SentimentIntensityAnalyzer()
               sreview = sid.polarity_scores(data['reviewText'])
-
+              # this is sum of all the negative , positive and neutral rating of all the reviews of a single product
               neg_review_avg = neg_review_avg + sreview['neg'] 
               neu_review_avg = neu_review_avg + sreview['neu']
               pos_review_avg = pos_review_avg + sreview['pos']
                 
               ssummary = sid.polarity_scores(data['summary'])
-            
+              # this is sum of all the negative , positive and neutral rating of all the summary of the reviews of a single product
               neg_summary_avg = neg_summary_avg + ssummary['neg']
               neu_summary_avg = neu_summary_avg + ssummary['neu']
               pos_summary_avg = pos_summary_avg + ssummary['pos']
               
               line_count = line_count + 1
-              
+              # calculating the average using the sums.
          neg_review_avg = neg_review_avg / line_count  
          neu_review_avg = neu_review_avg / line_count   
          pos_review_avg = pos_review_avg / line_count
@@ -61,7 +61,7 @@ for filename in glob.glob('*.json'):
          neu_summary_avg = neu_summary_avg / line_count
          pos_summary_avg = pos_summary_avg / line_count
          rate = calcRating(neg_review_avg,neu_review_avg,pos_review_avg,neg_summary_avg,neu_summary_avg,pos_summary_avg)
-         print("{ProductID:",data['asin'],", neg_review_avg:",neg_review_avg,", neu_review_avg:",neu_review_avg,", pos_review_avg:",pos_review_avg,", neg_summary_avg:",neg_summary_avg,", neu_summary_avg:",neu_summary_avg,", pos_summary_avg:",pos_summary_avg,", rating:",rate,"}")
+         print("{ \"ProductID\" : \"",data['asin'],"\" , \"neg_review_avg\" : \"",neg_review_avg,"\" , \"neu_review_avg\" : \"",neu_review_avg,"\" , \"pos_review_avg\" : \"",pos_review_avg,"\" , \"neg_summary_avg\" : \"",neg_summary_avg,"\" , \"neu_summary_avg\" : \"",neu_summary_avg,"\" , \"pos_summary_avg\" : \"",pos_summary_avg,"\" , \"rating\" : \"",rate,"\" }")
          print("\n\n")
     
     
