@@ -61,8 +61,8 @@ for filename in glob.glob('*.json'):
          neu_summary_avg = neu_summary_avg / line_count
          pos_summary_avg = pos_summary_avg / line_count
          rate = calcRating(neg_review_avg,neu_review_avg,pos_review_avg,neg_summary_avg,neu_summary_avg,pos_summary_avg)
-         print("{ \"sentiment_output\" : { \"ProductID\" : ",data['asin']," , \"neg_review_avg\" : ",neg_review_avg," , \"neu_review_avg\" : ",neu_review_avg," , \"pos_review_avg\" : ",pos_review_avg," , \"neg_summary_avg\" : ",neg_summary_avg," , \"neu_summary_avg\" : ",neu_summary_avg," , \"pos_summary_avg\" : ",pos_summary_avg," , \"rating\" : ",rate," } }")
-         print("\n\n")
+         print("{ \"ProductID\" : ",data['asin']," , \"neg_review_avg\" : ",neg_review_avg," , \"neu_review_avg\" : ",neu_review_avg," , \"pos_review_avg\" : ",pos_review_avg," , \"neg_summary_avg\" : ",neg_summary_avg," , \"neu_summary_avg\" : ",neu_summary_avg," , \"pos_summary_avg\" : ",pos_summary_avg," , \"rating\" : ",rate," }")
+         
     
     
 
