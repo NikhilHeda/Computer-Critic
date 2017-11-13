@@ -35,10 +35,11 @@ for filename in glob.glob('*.json'):
          pos_summary_avg =0
          rate=0
          line_count=0
+         prod_count=0
          for line in file:
               data = json.loads(line)
              
-            
+              # using nltk library , sentimentanalyser module we can find the sentiment values of a sentence.
               sid = SentimentIntensityAnalyzer()
               sreview = sid.polarity_scores(data['reviewText'])
               # this is sum of all the negative , positive and neutral rating of all the reviews of a single product
@@ -60,10 +61,14 @@ for filename in glob.glob('*.json'):
          neg_summary_avg = neg_summary_avg / line_count
          neu_summary_avg = neu_summary_avg / line_count
          pos_summary_avg = pos_summary_avg / line_count
+         prod_count = prod_count + 1
          rate = calcRating(neg_review_avg,neu_review_avg,pos_review_avg,neg_summary_avg,neu_summary_avg,pos_summary_avg)
-         print("{ \"ProductID\" : ",data['asin']," , \"neg_review_avg\" : ",neg_review_avg," , \"neu_review_avg\" : ",neu_review_avg," , \"pos_review_avg\" : ",pos_review_avg," , \"neg_summary_avg\" : ",neg_summary_avg," , \"neu_summary_avg\" : ",neu_summary_avg," , \"pos_summary_avg\" : ",pos_summary_avg," , \"rating\" : ",rate," }")
-         
-    
+         if prod_count == 1:
+              print("[{ \"ProductID\" : ",data['asin']," , \"neg_review_avg\" : ",neg_review_avg," , \"neu_review_avg\" : ",neu_review_avg," , \"pos_review_avg\" : ",pos_review_avg," , \"neg_summary_avg\" : ",neg_summary_avg," , \"neu_summary_avg\" : ",neu_summary_avg," , \"pos_summary_avg\" : ",pos_summary_avg," , \"rating\" : ",rate," }",end="")
+         else:
+              print(", { \"ProductID\" : ",data['asin']," , \"neg_review_avg\" : ",neg_review_avg," , \"neu_review_avg\" : ",neu_review_avg," , \"pos_review_avg\" : ",pos_review_avg," , \"neg_summary_avg\" : ",neg_summary_avg," , \"neu_summary_avg\" : ",neu_summary_avg," , \"pos_summary_avg\" : ",pos_summary_avg," , \"rating\" : ",rate," }",end="")
+              
+print("]")         
     
 
 
