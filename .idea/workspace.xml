@@ -2,93 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef31e0b-c2ab-4e6a-a0c9-32a06678a2d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400501466.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400501520.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400501776.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400532620.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400532655.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400532736.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400599997.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400698987.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1400699169.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/1615527613.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/3744295508.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/3930992868.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/3936710058.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/6301977173.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/7214047977.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/7507825604.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/7799813393.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/8862935293.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/8862936826.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/8918010656.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/9043413585.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/9573212900.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/9573212919.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/9575871979.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/9625993428.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/9862510447.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/9876050621.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/998498480X.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dataset/clusters/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entity_extraction/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/natural_language_generation/text_rank.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment_analysis/single_sentiment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sentiment_analysis/small.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dataset/reviews_small.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Entity Extraction/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Entity Extraction/word2vec_model" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Natural Language Generation/text_rank.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400501466.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400501520.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400501776.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400532620.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400532655.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400532736.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400599997.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400698987.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1400699169.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/1615527613.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/3744295508.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/3930992868.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/3936710058.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/6301977173.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/7214047977.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/7507825604.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/7799813393.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/8862935293.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/8862936826.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/8918010656.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/9043413585.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/9573212900.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/9573212919.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/9575871979.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/9625993428.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/9862510447.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/9876050621.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/998498480X.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/single_sentiment.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/small.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/cart.html" afterPath="$PROJECT_DIR$/User Interface/shopper/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/checkout.html" afterPath="$PROJECT_DIR$/User Interface/shopper/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/contact.html" afterPath="$PROJECT_DIR$/User Interface/shopper/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/data.json" afterPath="$PROJECT_DIR$/User Interface/shopper/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/products.html" afterPath="$PROJECT_DIR$/User Interface/shopper/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/register.html" afterPath="$PROJECT_DIR$/User Interface/shopper/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/results.json" afterPath="$PROJECT_DIR$/User Interface/shopper/results.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/sentiment_ouput.json" afterPath="$PROJECT_DIR$/User Interface/shopper/sentiment_ouput.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Interface/shopper/sentiment_output.json" afterPath="$PROJECT_DIR$/User Interface/shopper/sentiment_output.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Natural Language Generation/.ipynb_checkpoints/Extracting noun phrases - Grammar-checkpoint.ipynb" afterPath="$PROJECT_DIR$/natural_language_generation/.ipynb_checkpoints/Extracting noun phrases - Grammar-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Natural Language Generation/.ipynb_checkpoints/Key Phrase extraction using RAKE-checkpoint.ipynb" afterPath="$PROJECT_DIR$/natural_language_generation/.ipynb_checkpoints/Key Phrase extraction using RAKE-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Natural Language Generation/Extracting noun phrases - Grammar.ipynb" afterPath="$PROJECT_DIR$/natural_language_generation/Extracting noun phrases - Grammar.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Natural Language Generation/Key Phrase extraction using RAKE.ipynb" afterPath="$PROJECT_DIR$/natural_language_generation/Key Phrase extraction using RAKE.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Natural Language Generation/rake.py" afterPath="$PROJECT_DIR$/natural_language_generation/rake.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Sentiment Analysis/cluster/clustering.py" afterPath="$PROJECT_DIR$/Dataset/clusters/clustering.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Sentiment Analysis/documentation.rtf" afterPath="$PROJECT_DIR$/sentiment_analysis/documentation.rtf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Sentiment Analysis/metadata.png" afterPath="$PROJECT_DIR$/sentiment_analysis/metadata.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Sentiment Analysis/product_sentiment_output.txt" afterPath="$PROJECT_DIR$/sentiment_analysis/product_sentiment_output.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Sentiment Analysis/single_sentiment_output.txt" afterPath="$PROJECT_DIR$/sentiment_analysis/single_sentiment_output.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dataset/clusters/clustering.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dataset/clusters/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/documentation.rtf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity_extraction/rake.py" afterPath="$PROJECT_DIR$/entity_extraction/rake.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/natural_language_generation/global_summary.py" afterPath="$PROJECT_DIR$/natural_language_generation/global_summary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/global_summaries.json" afterPath="$PROJECT_DIR$/output/global_summaries.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment_analysis/single_sentiment.py" afterPath="$PROJECT_DIR$/sentiment_analysis/single_sentiment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_interface/shopper/cart.html" afterPath="$PROJECT_DIR$/user_interface/shopper/cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_interface/shopper/register.html" afterPath="$PROJECT_DIR$/user_interface/shopper/register.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/natural_language_generation/.ipynb_checkpoints/Extracting noun phrases - Grammar-checkpoint.ipynb" afterPath="$PROJECT_DIR$/extras/.ipynb_checkpoints/Extracting noun phrases - Grammar-checkpoint.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/natural_language_generation/.ipynb_checkpoints/Key Phrase extraction using RAKE-checkpoint.ipynb" afterPath="$PROJECT_DIR$/extras/.ipynb_checkpoints/Key Phrase extraction using RAKE-checkpoint.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment_analysis/small.json" afterPath="$PROJECT_DIR$/extras/small.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,7 +26,56 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="get_cc_output.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get_cc_output.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rake.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entity_extraction/rake.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single_sentiment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment_analysis/single_sentiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global_summary.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/natural_language_generation/global_summary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,9 +93,12 @@
         <option value="$PROJECT_DIR$/Entity Extraction/__init__.py" />
         <option value="$PROJECT_DIR$/natural_language_generation/Key Phrase extraction using RAKE.ipynb" />
         <option value="$PROJECT_DIR$/get_review_analysis.py" />
-        <option value="$PROJECT_DIR$/sentiment_analysis/single_sentiment.py" />
         <option value="$PROJECT_DIR$/natural_language_generation/rake.py" />
         <option value="$PROJECT_DIR$/sentiment_analysis/small.json" />
+        <option value="$PROJECT_DIR$/natural_language_generation/__init__.py" />
+        <option value="$PROJECT_DIR$/sentiment_analysis/__init__.py" />
+        <option value="$PROJECT_DIR$/sentiment_analysis/single_sentiment.py" />
+        <option value="$PROJECT_DIR$/get_cc_output.py" />
       </list>
     </option>
   </component>
@@ -163,6 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,60 +156,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computer-Critic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computer-Critic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="natural_language_generation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computer-Critic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computer-Critic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity_extraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computer-Critic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computer-Critic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dataset" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Nikhil\Projects\Computer-Critic\extras" />
       <recent name="F:\Nikhil\Projects\Computer-Critic\Dataset" />
     </key>
   </component>
@@ -244,7 +183,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.get_cc_output">
+    <configuration default="false" name="get_cc_output" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Computer-Critic" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_cc_output.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,6 +266,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.get_cc_output" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.get_cc_output" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -324,19 +289,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -375,20 +341,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_analysis/single_sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/natural_language_generation/text_rank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,7 +360,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_analysis/small.json">
+    <entry file="file://$PROJECT_DIR$/extras/small.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
@@ -415,20 +371,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset/reviews_small.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/reviews_small.json" />
     <entry file="file://$PROJECT_DIR$/entity_extraction/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -441,6 +387,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/natural_language_generation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment_analysis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/natural_language_generation/global_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_extraction/rake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment_analysis/single_sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_cc_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

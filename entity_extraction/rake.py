@@ -1,8 +1,10 @@
 import json
+
 from rake_nltk import Rake
 
 # Create rake object
 rake_object = Rake()
+
 
 def get_summary(text):
     '''
@@ -12,6 +14,7 @@ def get_summary(text):
     '''
     rake_object.extract_keywords_from_text(text)
     return rake_object.get_ranked_phrases_with_scores()
+
 
 def execute(review):
     json_data = json.loads(review)
@@ -34,11 +37,12 @@ def main():
         for line in f:
             json_data = json.loads(line)
             review = json_data["reviewText"]
-            summary = get_summary(review)[0][1] # This line chooses the phrase with the highest score to be the summary
+            summary = get_summary(review)[0][1]  # This line chooses the phrase with the highest score to be the summary
             json_data["cc_summary"] = summary
             list_a.append(json_data)
 
     json.dump(list_a, outfile)
+
 
 if __name__ == "__main__":
     main()
