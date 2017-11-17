@@ -1,10 +1,8 @@
 import json
-
 from rake_nltk import Rake
 
 # Create rake object
 rake_object = Rake()
-
 
 def get_summary(text):
     '''
@@ -12,9 +10,14 @@ def get_summary(text):
     It returns a list of tuples containing the score and the keyword string with that score sorted in descending order
     by score.
     '''
-
     rake_object.extract_keywords_from_text(text)
     return rake_object.get_ranked_phrases_with_scores()
+
+def execute(review):
+    json_data = json.loads(review)
+    text = json_data["reviewText"]
+    summary = get_summary(text)[0][1]
+    return summary
 
 
 def main():
@@ -24,16 +27,18 @@ def main():
     reviews_small.json is the input file.
     review_summaries.json is the output file.
     '''
-    outfile = open("../Output/review_summaries.json", "a")
+    outfile = open("../output/review_summaries.json", "w")
+    list_a = []
 
-    with open("../Dataset/reviews_small.json", "r") as f:
+    with open("../dataset/clusters/0594481813.json", "r") as f:
         for line in f:
             json_data = json.loads(line)
             review = json_data["reviewText"]
-            summary = get_summary(review)[0][1]  # This line chooses the phrase with the highest score to be the summary
-            data["summary"] = summary
-            json.dump(data, outfile)
-            outfile.write("\n")
+            summary = get_summary(review)[0][1] # This line chooses the phrase with the highest score to be the summary
+            json_data["cc_summary"] = summary
+            list_a.append(json_data)
 
+    json.dump(list_a, outfile)
 
-main()
+if __name__ == "__main__":
+    main()
