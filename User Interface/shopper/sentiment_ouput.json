@@ -1,12 +1,20 @@
 "product_sentiment":
 [
-	{"ProductID": 1400501466 , "neg_review_avg": 0.05293023255813952 , "neu_review_avg": 0.7784651162790697 , "pos_review_avg": 0.1685813953488372 , "neg_summary_avg": 0.05269767441860465 , "neu_summary_avg": 0.6152558139534884 , "pos_summary_avg": 0.33204651162790705 , "rating": 4 },
-	{"ProductID": 1 , "neg_review_avg": 0.04165 , "neu_review_avg": 0.74585 , "pos_review_avg": 0.16235000000000002 , "neg_summary_avg": 0.010499999999999999 , "neu_summary_avg": 0.4722500000000001 , "pos_summary_avg": 0.51725 , "rating": 4 },
-	{"ProductID": 1400501776 , "neg_review_avg": 0.03704999999999999 , "neu_review_avg": 0.8237500000000001 , "pos_review_avg": 0.13915 , "neg_summary_avg": 0.045599999999999995 , "neu_summary_avg": 0.61205 , "pos_summary_avg": 0.3424 , "rating": 4 },
-	{"ProductID": 1400532620 , "neg_review_avg": 0.05182926829268292 , "neu_review_avg": 0.8322439024390242 , "pos_review_avg": 0.11578048780487807 , "neg_summary_avg": 0.06826829268292683 , "neu_summary_avg": 0.6609512195121952 , "pos_summary_avg": 0.2707804878048781 , "rating": 4 },
-	{"ProductID": 1400532655 , "neg_review_avg": 0.04761467889908257 , "neu_review_avg": 0.8008165137614677 , "pos_review_avg": 0.15157798165137618 , "neg_summary_avg": 0.055238532110091734 , "neu_summary_avg": 0.6530458715596332 , "pos_summary_avg": 0.29171559633027516 , "rating": 4 },
-	{"ProductID": 1400532736 , "neg_review_avg": 0.059923076923076926 , "neu_review_avg": 0.8243846153846153 , "pos_review_avg": 0.1156153846153846 , "neg_summary_avg": 0.0903076923076923 , "neu_summary_avg": 0.5917692307692308 , "pos_summary_avg": 0.3179230769230769 , "rating": 4 },
-	{"ProductID": 1400599997 , "neg_review_avg": 0.04719512195121951 , "neu_review_avg": 0.8258048780487804 , "pos_review_avg": 0.12704878048780488 , "neg_summary_avg": 0.07134146341463415 , "neu_summary_avg": 0.5882195121951219 , "pos_summary_avg": 0.3404390243902439 , "rating": 4 },
-	{"ProductID": 1400698987 , "neg_review_avg": 0.029535714285714287 , "neu_review_avg": 0.7630000000000002 , "pos_review_avg": 0.20739285714285718 , "neg_summary_avg": 0.04971428571428572 , "neu_summary_avg": 0.5575 , "pos_summary_avg": 0.39278571428571424 , "rating": 4 },
-	{"ProductID": 1400699169 , "neg_review_avg": 0.033166666666666664 , "neu_review_avg": 0.8272500000000002 , "pos_review_avg": 0.13958333333333336 , "neg_summary_avg": 0.06058333333333333 , "neu_summary_avg": 0.54225 , "pos_summary_avg": 0.39716666666666667 , "rating": 4 }
+{"ProductID": 1400501466, "neg_review_avg": 0.05293023255813952, "neu_review_avg": 0.7784651162790697, "pos_review_avg": 0.1685813953488372, "neg_summary_avg": 0.05269767441860465 , "neu_summary_avg": 0.6152558139534884, "pos_summary_avg": 0.33204651162790705, "rating": 4
+},
+{
+"ProductID": 1, "neg_review_avg": 0.04165, "neu_review_avg": 0.74585, "pos_review_avg": 0.16235000000000002 , "neg_summary_avg": 0.010499999999999999, "neu_summary_avg": 0.4722500000000001, "pos_summary_avg": 0.51725, "rating": 4
+},
+{
+"ProductID": 1400501776, "neg_review_avg": 0.03704999999999999, "neu_review_avg": 0.8237500000000001 , "pos_review_avg": 0.13915, "neg_summary_avg": 0.045599999999999995, "neu_summary_avg": 0.61205, "pos_summary_avg": 0.3424, "rating": 4 },
+{"ProductID": 1400532620, "neg_review_avg": 0.05182926829268292 , "neu_review_avg": 0.8322439024390242, "pos_review_avg": 0.11578048780487807, "neg_summary_avg": 0.06826829268292683, "neu_summary_avg": 0.6609512195121952, "pos_summary_avg": 0.2707804878048781 , "rating": 4},
+{"ProductID": 1400532655 , "neg_review_avg": 0.04761467889908257, "neu_review_avg": 0.8008165137614677, "pos_review_avg": 0.15157798165137618, "neg_summary_avg": 0.055238532110091734, "neu_summary_avg": 0.6530458715596332 , "pos_summary_avg": 0.29171559633027516, "rating": 4},
+{"ProductID": 1400532736, "neg_review_avg": 0.059923076923076926, "neu_review_avg": 0.8243846153846153, "pos_review_avg": 0.1156153846153846, "neg_summary_avg": 0.0903076923076923 , "neu_summary_avg": 0.5917692307692308, "pos_summary_avg": 0.3179230769230769, "rating": 4
+},
+{
+"ProductID": 1400599997, "neg_review_avg": 0.04719512195121951, "neu_review_avg": 0.8258048780487804, "pos_review_avg": 0.12704878048780488 , "neg_summary_avg": 0.07134146341463415, "neu_summary_avg": 0.5882195121951219, "pos_summary_avg": 0.3404390243902439, "rating": 4
+},
+{
+"ProductID": 1400698987, "neg_review_avg": 0.029535714285714287, "neu_review_avg": 0.7630000000000002 , "pos_review_avg": 0.20739285714285718, "neg_summary_avg": 0.04971428571428572, "neu_summary_avg": 0.5575, "pos_summary_avg": 0.39278571428571424, "rating": 4 },
+{"ProductID": 1400699169, "neg_review_avg": 0.033166666666666664 , "neu_review_avg": 0.8272500000000002, "pos_review_avg": 0.13958333333333336, "neg_summary_avg": 0.06058333333333333, "neu_summary_avg": 0.54225, "pos_summary_avg": 0.39716666666666667 , "rating": 4}
 ]
