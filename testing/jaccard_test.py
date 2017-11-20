@@ -20,7 +20,7 @@ def jaccard(a_results, e_results):
         print("The similarity measure computed using Jaccard's formula is " + str(jc_sim))
 
 # The expected results
-e_results = ["samsung tv is excellent", "sometimes disconnects itself"]
+e_results = ["samsung tv is excellent", "sometimes disconnects itself", "very satisfied with price, much less"]
 # The actual results from the RAKE module
-a_results = ["samsung 52 &# 34", "sometimes disconnects"]
+a_results = ["samsung 52 &# 34", "sometimes disconnects", "price much less"]
 jaccard(a_results, e_results)
