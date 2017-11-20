@@ -44,10 +44,9 @@ def execute(review):
     neu_summary = ssummary['neu']
     pos_summary = ssummary['pos']
 
-    line_count = line_count + 1
     # passing the sentiment values to the calcRating Function and then printing it in JSON format.
     rate = calcRating(neg_review, neu_review, pos_review, neg_summary, neu_summary, pos_summary)
-    
+
     return rate
 
 
@@ -83,16 +82,19 @@ def main():
             rate = calcRating(neg_review, neu_review, pos_review, neg_summary, neu_summary, pos_summary)
             if line_count == 1:
                 print("[{ \"ProductID\" : ", data['asin'], " , \"neg_review\" : ", neg_review, " , \"neu_review\" : ",
-                    neu_review, " , \"pos_review\" : ", pos_review, " , \"neg_summary\" : ", neg_summary,
-                    " , \"neu_summary\" : ", neu_summary, " , \"pos_summary\" : ", pos_summary, " , \"rating\" : ", rate,
-                    " }", end="")
+                      neu_review, " , \"pos_review\" : ", pos_review, " , \"neg_summary\" : ", neg_summary,
+                      " , \"neu_summary\" : ", neu_summary, " , \"pos_summary\" : ", pos_summary, " , \"rating\" : ",
+                      rate,
+                      " }", end="")
             else:
                 print(", { \"ProductID\" : ", data['asin'], " , \"neg_review\" : ", neg_review, " , \"neu_review\" : ",
-                    neu_review, " , \"pos_review\" : ", pos_review, " , \"neg_summary\" : ", neg_summary,
-                    " , \"neu_summary\" : ", neu_summary, " , \"pos_summary\" : ", pos_summary, " , \"rating\" : ", rate,
-                    " }", end="")
+                      neu_review, " , \"pos_review\" : ", pos_review, " , \"neg_summary\" : ", neg_summary,
+                      " , \"neu_summary\" : ", neu_summary, " , \"pos_summary\" : ", pos_summary, " , \"rating\" : ",
+                      rate,
+                      " }", end="")
 
     print("]")
+
 
 if __name__ == "__main__":
     main()
