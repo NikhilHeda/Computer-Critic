@@ -17,16 +17,17 @@ Files
 \b0 This file takes the list of .json files as input and gives sentiment of each product review and product review summary. It also gives a rating based on the negative, neutral, and positive values obtained.\
 
 \b \
-small.json
-\b0   contains 100 sets of json data. \
+reviews.json
+\b0   contains sets of json data for 20 products. \
 \
 
-\b reviews_Electronics_5.json
+\b reviews_Electronics_5.json(which can taken from net)
 \b0   contains large amounts of electronics data in json format taken from amazon. http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Electronics_5.json.gz\
+or http://jmcauley.ucsd.edu/data/amazon/links.html\
 \
 
 \b Cluster
-\b0   This folder contains all data grouped with respect to Product ID(asin). 17919 products data.\
+\b0   This folder contains all data grouped with respect to Product ID(asin). 20 products data.\
 \
 
 \b Cluster->clustering.py
@@ -39,4 +40,18 @@ small.json
 Rating\
 the comments and its summary , they are considered in ration 2: 1.\
 \
-single_sentiment.py This file contains sediment analysis of single comments written by the user.}
+
+\b single_sentiment.py
+\b0  This file contains sentiment analysis of single comments written by the user.\
+\
+
+\b Cluster->products.txt
+\b0  This file contains name of products for their asin.\
+\
+
+\b Cluster->product_sentiment_output.json
+\b0  This file contains output rating as given by sentiment module for each product.\
+\
+
+\b Cluster->meta_data.json
+\b0  This file contains the category each product can be divided into.}
