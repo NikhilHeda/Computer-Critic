@@ -36,12 +36,11 @@ def main():
         result = get_summary(global_string)
         global_summary = ""
         for i in range(min(5, len(result))):
-            global_summary = global_summary + ". " + result[i][
-                1]  # This line chooses the phrase with the highest score to be the summary
+            global_summary = global_summary + ". " + result[i][1]  # This line chooses the phrase with the highest score to be the summary
         global_dict["cc_product_summary"] = global_summary
         global_dict["asin"] = file_name.split(".")[0]
 
     json.dump(global_dict, outfile)
 
-
-main()
+if __name__ == "__main__":
+	main()

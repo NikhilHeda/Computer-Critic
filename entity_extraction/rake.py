@@ -16,8 +16,7 @@ def get_summary(text):
     return rake_object.get_ranked_phrases_with_scores()
 
 
-def execute(review):
-    json_data = json.loads(review)
+def execute(json_data):
     text = json_data["reviewText"]
     summary = get_summary(text)[0][1]
     return summary

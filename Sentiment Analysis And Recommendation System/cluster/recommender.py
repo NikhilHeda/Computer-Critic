@@ -27,6 +27,7 @@ for product in products:
         priority = priority + 1
         output_file.write("{ \"asin\" : " + product['ProductID'] + ", \"recommed_prodid\" : " + similar_product['ProductID'] + ", \"priority\" : " + str(priority) + " }\n")
 
+
 metadatas_file.close()
 output_file.close()
 products_file.close()

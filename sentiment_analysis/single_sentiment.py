@@ -27,10 +27,8 @@ def calcRating(neg_review_avg, neu_review_avg, pos_review_avg, neg_summary_avg, 
     return round((rate * 5 + 5) / 2)
 
 
-def execute(review):
+def execute(data):
     # using nltk library , sentimentanalyser module we can find the sentiment values of a sentence.
-    data = json.loads(review)
-
     sid = SentimentIntensityAnalyzer()
     sreview = sid.polarity_scores(data['reviewText'])
     # this assigns the negative , positive and neutral rating of the comments.
