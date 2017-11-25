@@ -84,6 +84,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <script src="js/stage_reviews.js"></script>
             <script src="js/cart_operations.js"></script>
             <script src="js/process_review.js"></script>
+			<script type="text/javascript" src="js/read_recommends.js"> </script>
 
             <script defer src="js/jquery.flexslider.js"></script>
             <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
@@ -105,8 +106,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </script>
             
         <!-- //FlexSlider-->
-        
-    </head>
+		
+		
+		<style type="text/css">
+			div#recommend-container img {
+				max-width: 200px;
+				max-height: 200px;
+				margin: 10px;
+				cursor: pointer;
+			}
+		</style>
+
+	</head>
     <body onload="fillDetails()">
         <div class="header">
             <div class="container">
@@ -431,6 +442,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                           <input type="submit" value="Submit Review" onclick="postReview()" />
                         </div>
                     </div>
+					
+					<!-- Recommeders -->
+					<button onclick="getRecommends()">Get Recommends</button>
+
+					<div id="recommend-container">
+					</div>
+					
                 </div>
             </div>
         </div>
